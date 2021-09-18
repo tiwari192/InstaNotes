@@ -74,7 +74,7 @@ function Layout({children}) {
             {/* appbar */}
             <AppBar className={classes.appbar}>
                 <Toolbar>
-                    <Typography className={classes.expand}>Today is {d.getDate()} {months[d.getMonth()]} {d.getFullYear()}</Typography>
+                    <Typography className={classes.expand}>Today {d.getDate()} {months[d.getMonth()]} {d.getFullYear()}</Typography>
                     <AccountCircleIcon fontSize="large"/>
                 </Toolbar>
             </AppBar>

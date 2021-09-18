@@ -2,7 +2,8 @@ import { Avatar, Card, CardContent, CardHeader, IconButton, makeStyles } from '@
 import {DeleteOutlined} from '@material-ui/icons';
 import React from 'react';
 import {Typography} from '@material-ui/core';
-import { blue, green, grey, pink, yellow } from '@material-ui/core/colors';
+import { blue, brown, green, grey, pink, yellow } from '@material-ui/core/colors';
+
 
 const useStyles =makeStyles({
     avatar: {
@@ -18,6 +19,9 @@ const useStyles =makeStyles({
             }
             return grey[400];
         }
+    },
+    colorTitle: {
+        color: brown[500]
     }
 })
 
@@ -38,7 +42,7 @@ function NoteCard({note, handleDelete}) {
                             <DeleteOutlined/>
                         </IconButton>    
                     }
-                    title = {note.title}
+                    title = {<b className = {classes.colorTitle}>{note.title}</b>}
                     subheader = {note.category}
                 />
                 <CardContent>

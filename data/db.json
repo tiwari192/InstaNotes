@@ -1,38 +1,44 @@
 {
   "notes": [
     {
-      "title": "Yoshi's birthday bash",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "remainder",
+      "title": "World War2",
+      "details": "World War II started in 1939 and ended in 1945. More than 100 million people from 30 nations participated in the war, resulting in anywhere from 70 million to 85 million civilian and military casualties. World War II was the deadliest war in history.\nLeading up to the war, many countries tried remaining neutral. However, as conflict arose, countries gradually began choosing sides. Countries either joined the Axis Powers or the Allied Powers.\n",
+      "category": "events",
       "id": 1
     },
     {
-      "title": "Complete my ninja training",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+      "title": "Indian Independence War 1857",
+      "details": "Indian Mutiny, also called Sepoy Mutiny or First War of Independence, widespread but unsuccessful rebellion against British rule in India in 1857–59. Begun in Meerut by Indian troops (sepoys) in the service of the British East India Company, it spread to Delhi, Agra, Kanpur, and Lucknow. In India, it is often called the First War of Independence and other similar names.",
       "category": "events",
       "id": 2
     },
     {
-      "title": "Order a pizza!",
-      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      "category": "todo",
+      "title": "Paytm IPO ",
+      "details": "Incorporated in 2000, One 97 Communications Ltd is India's leading digital ecosystem for consumers as well as merchants. As of March 31, 2021, the company has a 333 million+ client base and 21 million+ registered merchants to whom it offers payment services, financial services, and commerce and cloud services.",
+      "category": "finance",
       "id": 3
     },
     {
-      "title": "dfgfhngfnhgb",
-      "details": "sdfghgbgbghh",
+      "title": "Read Business Analytics with R",
+      "details": "Midsem Exam on 7th Sep",
+      "category": "todo",
+      "id": 4
+    },
+    {
+      "title": "Codechef LunchTime",
+      "details": "Lunchtime on 27th Sep",
       "category": "remainder",
       "id": 5
     },
     {
-      "title": "fgbfbfgb",
-      "details": "xvfdvfvcbvtrgt",
-      "category": "events",
+      "title": "Bombay Stock Exchange",
+      "details": "The BSE enables investors to trade in equities, currencies, debt instruments, derivatives, and mutual funds. The BSE also provides other important capital market trading services such as risk management, clearing, settlement, and investor education.",
+      "category": "finance",
       "id": 6
     },
     {
-      "title": "xdvfbv",
-      "details": "xgbvbvv",
+      "title": "Read Communist Manifesto",
+      "details": "Read The common manifestations during the industrial revolution in Europe",
       "category": "todo",
       "id": 7
     }

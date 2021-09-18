@@ -1,8 +1,9 @@
 //json-server --watch data/db.json --port 8000
 
-import { Container, Grid, Paper } from '@material-ui/core';
+import { Container, Grid, Paper } from '@material-ui/core'
 import React, {useEffect, useState} from 'react'
-import NoteCard from '../components/NoteCard';
+import NoteCard from '../components/NoteCard'
+import Masonry from 'react-masonry-css'
 
 export default function Notes() {
 
@@ -29,16 +30,26 @@ export default function Notes() {
 
   }
 
+  const breakpoints = {
+    default: 3,
+    1100: 2,
+    700: 1
+  }
+
   return (
     <Container>
-      <Grid container spacing = {3}>
+      <Masonry
+        breakpointCols={breakpoints}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      >
         { notes.map((note) => (
-            <Grid item key={note.id} md={4} sm={6} xs={12}>
+            <div key={note.id} md={4} sm={6} xs={12}>
               <NoteCard note = {note}  handleDelete = {handleDelete} />
-            </Grid>
+            </div>
           ))
         }
-      </Grid>
+      </Masonry>
     </Container>
   )
 }
